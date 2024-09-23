@@ -1,0 +1,1299 @@
+found 0 blocks of degenerate orbitals in shell 0
+Sumk to Solver: [{('up', 0): ('up_0', 0), ('up', 1): ('up_0', 1), ('up', 2): ('up_0', 2), ('down', 0): ('down_0', 0), ('down', 1): ('down_0', 1), ('down', 2): ('down_0', 2)}]
+GF struct sumk: [[('up', 3), ('down', 3)], [('up', 3), ('down', 3)], [('up', 3), ('down', 3)], [('up', 3), ('down', 3)]]
+GF struct solver: [{'up_0': 3, 'down_0': 3}]
+Greens function structure is: [('down_0', 3), ('up_0', 3)] 
+U Matrix set to:
+[[0.  1.5 1.5]
+ [1.5 0.  1.5]
+ [1.5 1.5 0. ]]
+Up Matrix set to:
+[[3. 2. 2.]
+ [2. 3. 2.]
+ [2. 2. 3.]]
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (7.357928164375394e-14)
+Warning: Imaginary part in density will be ignored (7.698174816067158e-14)
+    Chemical Potential = 0.500000  
+    Total Density = 21.900564
+    0.000000 < Chemical Potential < 0.500000
+    15.850480 < Total Density < 21.900564
+Warning: Imaginary part in density will be ignored (7.360999182847507e-14)
+    0.000000 < Chemical Potential < 0.012357
+    15.850480 < Total Density < 16.037081
+Warning: Imaginary part in density will be ignored (7.325795781585011e-14)
+    0.000000 < Chemical Potential < 0.009901
+    15.850480 < Total Density < 16.000072
+    Chemical Potential found in 3 iterations : 
+    Total Density = 16.000072;Chemical Potential = 0.009901
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.647290 eV
+E_DC using the cHeld method, E_DC = 10.796615 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.647290 eV
+E_DC using the cHeld method, E_DC = 10.796615 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.647290 eV
+E_DC using the cHeld method, E_DC = 10.796615 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.647290 eV
+E_DC using the cHeld method, E_DC = 10.796615 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.647290 eV
+E_DC using the cHeld method, E_DC = 10.796615 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.647290 eV
+E_DC using the cHeld method, E_DC = 10.796615 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.647290 eV
+E_DC using the cHeld method, E_DC = 10.796615 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.647290 eV
+E_DC using the cHeld method, E_DC = 10.796615 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+10 DMFT cycles requested. Starting with iteration 0.
+Doing iteration: 0
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+-6.89978*c_dag('down_0',0)*c('down_0',0) + -6.88413*c_dag('down_0',1)*c('down_0',1) + -6.84556*c_dag('down_0',2)*c('down_0',2) + -6.90978*c_dag('up_0',0)*c('up_0',0) + -6.89413*c_dag('up_0',1)*c('up_0',1) + -6.85556*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 44 subspaces.
+
+Warming up ...
+09:15:55   0% ETA 00:00:20 cycle 207 of 41666
+09:15:57  10% ETA 00:00:18 cycle 4350 of 41666
+09:15:59  21% ETA 00:00:16 cycle 9068 of 41666
+09:16:03  37% ETA 00:00:13 cycle 15622 of 41666
+09:16:07  55% ETA 00:00:09 cycle 23328 of 41666
+09:16:12  79% ETA 00:00:04 cycle 33163 of 41666
+09:16:16 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:16:16   0% ETA 00:03:24 cycle 203 of 416666
+09:16:18   1% ETA 00:03:22 cycle 4329 of 416666
+09:16:21   2% ETA 00:03:28 cycle 9098 of 416666
+09:16:24   3% ETA 00:03:25 cycle 15304 of 416666
+09:16:28   5% ETA 00:03:19 cycle 23236 of 416666
+09:16:33   7% ETA 00:03:14 cycle 32912 of 416666
+09:16:39  10% ETA 00:03:09 cycle 44894 of 416666
+09:16:47  14% ETA 00:03:01 cycle 60096 of 416666
+09:16:56  18% ETA 00:02:52 cycle 78943 of 416666
+09:17:09  24% ETA 00:02:39 cycle 102751 of 416666
+09:17:24  31% ETA 00:02:24 cycle 132290 of 416666
+09:17:42  40% ETA 00:02:06 cycle 169122 of 416666
+09:18:06  51% ETA 00:01:42 cycle 215210 of 416666
+09:18:36  65% ETA 00:01:13 cycle 272863 of 416666
+09:19:12  83% ETA 00:00:35 cycle 346479 of 416666
+09:19:48 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.0953467 
+Average order         | 0.0220453 
+Average sign          | 0.0135507 
+G_tau measure         | 0.195398  
+Total measure time    | 0.32634   
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.13624
+  Move  Insert Delta_down_0: 0.136332
+  Move  Insert Delta_up_0: 0.136147
+Move set Remove two operators: 0.136313
+  Move  Remove Delta_down_0: 0.136386
+  Move  Remove Delta_up_0: 0.136239
+Move set Insert four operators: 0.0299079
+  Move  Insert Delta_down_0_down_0: 0.0309514
+  Move  Insert Delta_down_0_up_0: 0.0289403
+  Move  Insert Delta_up_0_down_0: 0.0290003
+  Move  Insert Delta_up_0_up_0: 0.0307396
+Move set Remove four operators: 0.0298773
+  Move  Remove Delta_down_0_down_0: 0.0309377
+  Move  Remove Delta_down_0_up_0: 0.0289373
+  Move  Remove Delta_up_0_down_0: 0.0289204
+  Move  Remove Delta_up_0_up_0: 0.0307144
+Move  Shift one operator: 0.219008
+[Rank 0] Warmup lasted: 20.9842 seconds [00:00:20]
+[Rank 0] Simulation lasted: 211.353 seconds [00:03:31]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.986803
+Average order: 4.34884
+Auto-correlation time: 1.01972
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.202879 eV
+E_DC using the cHeld method, E_DC = 9.368926 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.202879 eV
+E_DC using the cHeld method, E_DC = 9.368926 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.202879 eV
+E_DC using the cHeld method, E_DC = 9.368926 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.202879 eV
+E_DC using the cHeld method, E_DC = 9.368926 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.202879 eV
+E_DC using the cHeld method, E_DC = 9.368926 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.202879 eV
+E_DC using the cHeld method, E_DC = 9.368926 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.202879 eV
+E_DC using the cHeld method, E_DC = 9.368926 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.202879 eV
+E_DC using the cHeld method, E_DC = 9.368926 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.8278104624542415e-13)
+Warning: Imaginary part in density will be ignored (1.744161833297178e-13)
+    Chemical Potential = 0.509901  
+    Total Density = 15.867340
+Warning: Imaginary part in density will be ignored (1.653852851076019e-13)
+    Chemical Potential = 1.009901  
+    Total Density = 19.160707
+    0.009901 < Chemical Potential < 1.009901
+    12.231023 < Total Density < 19.160707
+Warning: Imaginary part in density will be ignored (1.7350835416708505e-13)
+    0.009901 < Chemical Potential < 0.553790
+    12.231023 < Total Density < 16.181385
+Warning: Imaginary part in density will be ignored (1.7422003044637122e-13)
+    0.009901 < Chemical Potential < 0.528817
+    12.231023 < Total Density < 16.003097
+Warning: Imaginary part in density will be ignored (1.7414897994736713e-13)
+    0.009901 < Chemical Potential < 0.528391
+    12.231023 < Total Density < 16.000046
+    Chemical Potential found in 5 iterations : 
+    Total Density = 16.000046;Chemical Potential = 0.528391
+Orbital down_0 density: 0.580749
+Orbital up_0 density: 0.606827
+Total charge of Gloc : 3.807905
+Doing iteration: 1
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+3.12822e-14*c_dag('down_0',0)*c('down_0',1) + -6.97386*c_dag('down_0',0)*c('down_0',0) + -6.95821*c_dag('down_0',1)*c('down_0',1) + 3.12822e-14*c_dag('down_0',1)*c('down_0',0) + -6.91964*c_dag('down_0',2)*c('down_0',2) + 2.96254e-14*c_dag('up_0',0)*c('up_0',1) + -6.98386*c_dag('up_0',0)*c('up_0',0) + -6.96821*c_dag('up_0',1)*c('up_0',1) + 2.96254e-14*c_dag('up_0',1)*c('up_0',0) + -6.92964*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 28 subspaces.
+
+Warming up ...
+09:20:18   0% ETA 00:00:19 cycle 217 of 41666
+09:20:20   9% ETA 00:00:19 cycle 4018 of 41666
+09:20:23  21% ETA 00:00:17 cycle 8915 of 41666
+09:20:26  35% ETA 00:00:14 cycle 14882 of 41666
+09:20:30  54% ETA 00:00:09 cycle 22777 of 41666
+09:20:35  77% ETA 00:00:04 cycle 32480 of 41666
+09:20:40 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:20:40   0% ETA 00:04:21 cycle 159 of 416666
+09:20:42   0% ETA 00:03:37 cycle 4028 of 416666
+09:20:45   2% ETA 00:03:27 cycle 9129 of 416666
+09:20:48   3% ETA 00:03:27 cycle 15140 of 416666
+09:20:52   5% ETA 00:03:24 cycle 22704 of 416666
+09:20:57   7% ETA 00:03:19 cycle 32199 of 416666
+09:21:03  10% ETA 00:03:12 cycle 44297 of 416666
+09:21:11  14% ETA 00:03:05 cycle 58968 of 416666
+09:21:20  18% ETA 00:02:55 cycle 77766 of 416666
+09:21:32  24% ETA 00:02:43 cycle 101158 of 416666
+09:21:47  31% ETA 00:02:28 cycle 130294 of 416666
+09:22:06  40% ETA 00:02:09 cycle 166756 of 416666
+09:22:30  51% ETA 00:01:45 cycle 212649 of 416666
+09:22:59  64% ETA 00:01:15 cycle 269729 of 416666
+09:23:36  82% ETA 00:00:38 cycle 341771 of 416666
+09:24:14 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.0962951 
+Average order         | 0.0223505 
+Average sign          | 0.0155687 
+G_tau measure         | 0.185064  
+Total measure time    | 0.319278  
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.141434
+  Move  Insert Delta_down_0: 0.141798
+  Move  Insert Delta_up_0: 0.14107
+Move set Remove two operators: 0.141419
+  Move  Remove Delta_down_0: 0.141775
+  Move  Remove Delta_up_0: 0.141064
+Move set Insert four operators: 0.0315621
+  Move  Insert Delta_down_0_down_0: 0.032592
+  Move  Insert Delta_down_0_up_0: 0.0308285
+  Move  Insert Delta_up_0_down_0: 0.0308225
+  Move  Insert Delta_up_0_up_0: 0.0320057
+Move set Remove four operators: 0.0315561
+  Move  Remove Delta_down_0_down_0: 0.0326
+  Move  Remove Delta_down_0_up_0: 0.0307935
+  Move  Remove Delta_up_0_down_0: 0.0307962
+  Move  Remove Delta_up_0_up_0: 0.0320346
+Move  Shift one operator: 0.204522
+[Rank 0] Warmup lasted: 21.295 seconds [00:00:21]
+[Rank 0] Simulation lasted: 214.263 seconds [00:03:34]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.994256
+Average order: 3.98876
+Auto-correlation time: 1.03553
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.314220 eV
+E_DC using the cHeld method, E_DC = 9.717344 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.314220 eV
+E_DC using the cHeld method, E_DC = 9.717344 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.314220 eV
+E_DC using the cHeld method, E_DC = 9.717344 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.314220 eV
+E_DC using the cHeld method, E_DC = 9.717344 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.314220 eV
+E_DC using the cHeld method, E_DC = 9.717344 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.314220 eV
+E_DC using the cHeld method, E_DC = 9.717344 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.314220 eV
+E_DC using the cHeld method, E_DC = 9.717344 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.314220 eV
+E_DC using the cHeld method, E_DC = 9.717344 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.7686632579258148e-13)
+Warning: Imaginary part in density will be ignored (1.865675839501957e-13)
+    Chemical Potential = 0.028391  
+    Total Density = 12.434071
+    0.028391 < Chemical Potential < 0.528391
+    12.434071 < Total Density < 16.139793
+Warning: Imaginary part in density will be ignored (1.7807283780418852e-13)
+    0.028391 < Chemical Potential < 0.509529
+    12.434071 < Total Density < 16.004178
+Warning: Imaginary part in density will be ignored (1.7723129997757205e-13)
+    0.028391 < Chemical Potential < 0.508966
+    12.434071 < Total Density < 16.000118
+Warning: Imaginary part in density will be ignored (1.775531743369759e-13)
+    0.028391 < Chemical Potential < 0.508950
+    12.434071 < Total Density < 16.000003
+    Chemical Potential found in 4 iterations : 
+    Total Density = 16.000003;Chemical Potential = 0.508950
+Orbital down_0 density: 0.580216
+Orbital up_0 density: 0.605168
+Total charge of Gloc : 3.807957
+{'chemical_potentials': [0.5283907976530826], 'G_diff': [0.034012741190692336], 'Gimp_diff': [0.0566341978044881], 'density_matrix_values': [3.8339167086156105], 'orbital_resolved_dms': [{'down_0': array([0.58074921, 0.59892454, 0.58519689]), 'up_0': array([0.60682682, 0.61944007, 0.6103019 ])}], 'n_iterations': 1, 'mu_diff': [-0.019440679873769184], 'density_matrix_diff': [-0.025372142809048537], 'orbital_resolved_dm_diff': [[array([-0.00053351,  0.01595108,  0.02024419]), array([-0.00165837,  0.00494236,  0.01672483])]]}
+Data from iteration 1 appended to ./extracted_data.csv
+Doing iteration: 2
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+-3.95778e-14*c_dag('down_0',0)*c('down_0',1) + -7.06576*c_dag('down_0',0)*c('down_0',0) + -7.05011*c_dag('down_0',1)*c('down_0',1) + -3.95778e-14*c_dag('down_0',1)*c('down_0',0) + -7.01154*c_dag('down_0',2)*c('down_0',2) + -7.07576*c_dag('up_0',0)*c('up_0',0) + -7.06011*c_dag('up_0',1)*c('up_0',1) + -7.02154*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 28 subspaces.
+
+Warming up ...
+09:24:43   0% ETA 00:00:19 cycle 208 of 41666
+09:24:45  10% ETA 00:00:18 cycle 4312 of 41666
+09:24:47  21% ETA 00:00:17 cycle 8922 of 41666
+09:24:51  36% ETA 00:00:13 cycle 15320 of 41666
+09:24:54  55% ETA 00:00:09 cycle 22952 of 41666
+09:24:59  78% ETA 00:00:04 cycle 32641 of 41666
+09:25:04 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:25:05   0% ETA 00:03:19 cycle 208 of 416666
+09:25:07   0% ETA 00:03:36 cycle 4046 of 416666
+09:25:09   2% ETA 00:03:32 cycle 8944 of 416666
+09:25:12   3% ETA 00:03:31 cycle 14887 of 416666
+09:25:16   5% ETA 00:03:23 cycle 22773 of 416666
+09:25:21   7% ETA 00:03:18 cycle 32346 of 416666
+09:25:27  10% ETA 00:03:13 cycle 44116 of 416666
+09:25:35  14% ETA 00:03:04 cycle 59354 of 416666
+09:25:45  18% ETA 00:02:54 cycle 78023 of 416666
+09:25:57  24% ETA 00:02:42 cycle 101368 of 416666
+09:26:12  31% ETA 00:02:27 cycle 130644 of 416666
+09:26:31  40% ETA 00:02:08 cycle 167358 of 416666
+09:26:54  51% ETA 00:01:45 cycle 212916 of 416666
+09:27:24  64% ETA 00:01:15 cycle 269835 of 416666
+09:28:01  81% ETA 00:00:38 cycle 341346 of 416666
+09:28:39 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.094159  
+Average order         | 0.0216115 
+Average sign          | 0.0150892 
+G_tau measure         | 0.183664  
+Total measure time    | 0.314524  
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.141788
+  Move  Insert Delta_down_0: 0.142134
+  Move  Insert Delta_up_0: 0.141442
+Move set Remove two operators: 0.141788
+  Move  Remove Delta_down_0: 0.142127
+  Move  Remove Delta_up_0: 0.141449
+Move set Insert four operators: 0.0316963
+  Move  Insert Delta_down_0_down_0: 0.0329097
+  Move  Insert Delta_down_0_up_0: 0.0307816
+  Move  Insert Delta_up_0_down_0: 0.0307826
+  Move  Insert Delta_up_0_up_0: 0.0323119
+Move set Remove four operators: 0.0316968
+  Move  Remove Delta_down_0_down_0: 0.0328789
+  Move  Remove Delta_down_0_up_0: 0.030801
+  Move  Remove Delta_up_0_down_0: 0.0307877
+  Move  Remove Delta_up_0_up_0: 0.0323192
+Move  Shift one operator: 0.203493
+[Rank 0] Warmup lasted: 21.3526 seconds [00:00:21]
+[Rank 0] Simulation lasted: 215.035 seconds [00:03:35]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.994634
+Average order: 4.0083
+Auto-correlation time: 0.923743
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.512009 eV
+E_DC using the cHeld method, E_DC = 10.351564 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.512009 eV
+E_DC using the cHeld method, E_DC = 10.351564 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.512009 eV
+E_DC using the cHeld method, E_DC = 10.351564 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.512009 eV
+E_DC using the cHeld method, E_DC = 10.351564 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.512009 eV
+E_DC using the cHeld method, E_DC = 10.351564 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.512009 eV
+E_DC using the cHeld method, E_DC = 10.351564 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.512009 eV
+E_DC using the cHeld method, E_DC = 10.351564 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.512009 eV
+E_DC using the cHeld method, E_DC = 10.351564 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.782184665820469e-13)
+Warning: Imaginary part in density will be ignored (1.8722938572467472e-13)
+    Chemical Potential = 0.008950  
+    Total Density = 13.372203
+    0.008950 < Chemical Potential < 0.508950
+    13.372203 < Total Density < 17.048117
+Warning: Imaginary part in density will be ignored (1.8090506081530447e-13)
+    0.008950 < Chemical Potential < 0.366385
+    13.372203 < Total Density < 16.039383
+Warning: Imaginary part in density will be ignored (1.8120620616462286e-13)
+    0.008950 < Chemical Potential < 0.361107
+    13.372203 < Total Density < 16.001068
+Warning: Imaginary part in density will be ignored (1.8124233036796773e-13)
+    0.008950 < Chemical Potential < 0.360964
+    13.372203 < Total Density < 16.000029
+    Chemical Potential found in 4 iterations : 
+    Total Density = 16.000029;Chemical Potential = 0.360964
+Orbital down_0 density: 0.591305
+Orbital up_0 density: 0.618414
+Total charge of Gloc : 3.838492
+{'chemical_potentials': [0.5283907976530826, 0.5089501177793134], 'G_diff': [0.034012741190692336, 0.017691146082581516], 'Gimp_diff': [0.0566341978044881, 0.03405372350010703], 'density_matrix_values': [3.8339167086156105, 3.808544565806562], 'orbital_resolved_dms': [{'down_0': array([0.58074921, 0.59892454, 0.58519689]), 'up_0': array([0.60682682, 0.61944007, 0.6103019 ])}, {'down_0': array([0.5802157 , 0.61487562, 0.60544108]), 'up_0': array([0.60516845, 0.62438242, 0.62702673])}], 'n_iterations': 2, 'mu_diff': [-0.019440679873769184, -0.1479863669269323], 'density_matrix_diff': [-0.025372142809048537, 0.04573040289539421], 'orbital_resolved_dm_diff': [[array([-0.00053351,  0.01595108,  0.02024419]), array([-0.00165837,  0.00494236,  0.01672483])], [array([0.01108916, 0.01263699, 0.01196529]), array([0.01324542, 0.02725126, 0.02270621])]]}
+Data from iteration 2 appended to ./extracted_data.csv
+Doing iteration: 3
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+-7.11556*c_dag('down_0',0)*c('down_0',0) + -7.09991*c_dag('down_0',1)*c('down_0',1) + -7.06134*c_dag('down_0',2)*c('down_0',2) + -7.12556*c_dag('up_0',0)*c('up_0',0) + -7.10991*c_dag('up_0',1)*c('up_0',1) + -7.07134*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 44 subspaces.
+
+Warming up ...
+09:29:08   0% ETA 00:00:16 cycle 254 of 41666
+09:29:10  15% ETA 00:00:11 cycle 6395 of 41666
+09:29:12  34% ETA 00:00:08 cycle 14375 of 41666
+09:29:16  57% ETA 00:00:05 cycle 23988 of 41666
+09:29:19  86% ETA 00:00:01 cycle 35969 of 41666
+09:29:21 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:29:29   0% ETA 00:03:15 cycle 212 of 416666
+09:29:31   1% ETA 00:03:12 cycle 4551 of 416666
+09:29:34   2% ETA 00:03:20 cycle 9477 of 416666
+09:29:37   3% ETA 00:03:12 cycle 16248 of 416666
+09:29:41   5% ETA 00:03:11 cycle 24199 of 416666
+09:29:46   8% ETA 00:03:06 cycle 34293 of 416666
+09:29:52  11% ETA 00:02:59 cycle 47091 of 416666
+09:30:00  15% ETA 00:02:52 cycle 62719 of 416666
+09:30:09  21% ETA 00:02:31 cycle 87505 of 416666
+09:30:21  29% ETA 00:02:02 cycle 124736 of 416666
+09:30:37  40% ETA 00:01:37 cycle 170830 of 416666
+09:30:55  54% ETA 00:01:11 cycle 228583 of 416666
+09:31:19  72% ETA 00:00:42 cycle 300754 of 416666
+09:31:48  93% ETA 00:00:09 cycle 390932 of 416666
+09:31:57 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.0562408 
+Average order         | 0.011564  
+Average sign          | 0.00998702
+G_tau measure         | 0.132914  
+Total measure time    | 0.210706  
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.143105
+  Move  Insert Delta_down_0: 0.143472
+  Move  Insert Delta_up_0: 0.142737
+Move set Remove two operators: 0.143115
+  Move  Remove Delta_down_0: 0.143478
+  Move  Remove Delta_up_0: 0.142752
+Move set Insert four operators: 0.0319984
+  Move  Insert Delta_down_0_down_0: 0.0331809
+  Move  Insert Delta_down_0_up_0: 0.0311346
+  Move  Insert Delta_up_0_down_0: 0.0310993
+  Move  Insert Delta_up_0_up_0: 0.0325791
+Move set Remove four operators: 0.0319925
+  Move  Remove Delta_down_0_down_0: 0.0331641
+  Move  Remove Delta_down_0_up_0: 0.0311118
+  Move  Remove Delta_up_0_down_0: 0.0311299
+  Move  Remove Delta_up_0_up_0: 0.0325646
+Move  Shift one operator: 0.200019
+[Rank 0] Warmup lasted: 13.5476 seconds [00:00:13]
+[Rank 0] Simulation lasted: 147.556 seconds [00:02:27]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.994241
+Average order: 3.93427
+Auto-correlation time: 0.871244
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.517416 eV
+E_DC using the cHeld method, E_DC = 10.369179 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.517416 eV
+E_DC using the cHeld method, E_DC = 10.369179 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.517416 eV
+E_DC using the cHeld method, E_DC = 10.369179 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.517416 eV
+E_DC using the cHeld method, E_DC = 10.369179 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.517416 eV
+E_DC using the cHeld method, E_DC = 10.369179 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.517416 eV
+E_DC using the cHeld method, E_DC = 10.369179 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.517416 eV
+E_DC using the cHeld method, E_DC = 10.369179 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.517416 eV
+E_DC using the cHeld method, E_DC = 10.369179 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.845201581621246e-13)
+Warning: Imaginary part in density will be ignored (1.7517129736386328e-13)
+    Chemical Potential = 0.860964  
+    Total Density = 19.029367
+    0.360964 < Chemical Potential < 0.860964
+    15.719964 < Total Density < 19.029367
+Warning: Imaginary part in density will be ignored (1.8381985777094247e-13)
+    0.360964 < Chemical Potential < 0.403273
+    15.719964 < Total Density < 16.028580
+Warning: Imaginary part in density will be ignored (1.8347169051711654e-13)
+    0.360964 < Chemical Potential < 0.399355
+    15.719964 < Total Density < 16.000159
+Warning: Imaginary part in density will be ignored (1.8426871763988494e-13)
+    0.360964 < Chemical Potential < 0.399333
+    15.719964 < Total Density < 16.000001
+    Chemical Potential found in 4 iterations : 
+    Total Density = 16.000001;Chemical Potential = 0.399333
+Orbital down_0 density: 0.592634
+Orbital up_0 density: 0.623113
+Total charge of Gloc : 3.831094
+{'chemical_potentials': [0.5283907976530826, 0.5089501177793134, 0.36096375085238114], 'G_diff': [0.034012741190692336, 0.017691146082581516, 0.01705084254061274], 'Gimp_diff': [0.0566341978044881, 0.03405372350010703, 0.030261964647708077], 'density_matrix_values': [3.8339167086156105, 3.808544565806562, 3.854274968701956], 'orbital_resolved_dms': [{'down_0': array([0.58074921, 0.59892454, 0.58519689]), 'up_0': array([0.60682682, 0.61944007, 0.6103019 ])}, {'down_0': array([0.5802157 , 0.61487562, 0.60544108]), 'up_0': array([0.60516845, 0.62438242, 0.62702673])}, {'down_0': array([0.59130486, 0.62751261, 0.61740636]), 'up_0': array([0.61841388, 0.65163368, 0.64973293])}], 'n_iterations': 3, 'mu_diff': [-0.019440679873769184, -0.1479863669269323, 0.03836916341870733], 'density_matrix_diff': [-0.025372142809048537, 0.04573040289539421, -0.023315474889967547], 'orbital_resolved_dm_diff': [[array([-0.00053351,  0.01595108,  0.02024419]), array([-0.00165837,  0.00494236,  0.01672483])], [array([0.01108916, 0.01263699, 0.01196529]), array([0.01324542, 0.02725126, 0.02270621])], [array([ 0.0013287 , -0.00270596,  0.00643883]), array([ 0.00469934, -0.00068961, -0.00636746])]]}
+Data from iteration 3 appended to ./extracted_data.csv
+Doing iteration: 4
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+-3.88622e-14*c_dag('down_0',0)*c('down_0',1) + -7.15934*c_dag('down_0',0)*c('down_0',0) + -7.14369*c_dag('down_0',1)*c('down_0',1) + -3.88622e-14*c_dag('down_0',1)*c('down_0',0) + -7.10512*c_dag('down_0',2)*c('down_0',2) + -7.16934*c_dag('up_0',0)*c('up_0',0) + -7.15369*c_dag('up_0',1)*c('up_0',1) + -7.11512*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 28 subspaces.
+
+Warming up ...
+09:33:27   0% ETA 00:00:19 cycle 208 of 41666
+09:33:29  10% ETA 00:00:18 cycle 4351 of 41666
+09:33:31  21% ETA 00:00:16 cycle 9033 of 41666
+09:33:35  36% ETA 00:00:13 cycle 15386 of 41666
+09:33:39  55% ETA 00:00:09 cycle 23059 of 41666
+09:33:44  78% ETA 00:00:04 cycle 32744 of 41666
+09:33:48 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:33:48   0% ETA 00:03:34 cycle 193 of 416666
+09:33:50   0% ETA 00:03:42 cycle 3949 of 416666
+09:33:53   2% ETA 00:03:30 cycle 9010 of 416666
+09:33:56   3% ETA 00:03:29 cycle 14985 of 416666
+09:34:00   5% ETA 00:03:24 cycle 22733 of 416666
+09:34:05   7% ETA 00:03:19 cycle 32276 of 416666
+09:34:11  10% ETA 00:03:13 cycle 44126 of 416666
+09:34:19  14% ETA 00:03:04 cycle 59231 of 416666
+09:34:29  18% ETA 00:02:55 cycle 77844 of 416666
+09:34:41  24% ETA 00:02:43 cycle 100937 of 416666
+09:34:56  31% ETA 00:02:28 cycle 130089 of 416666
+09:35:15  40% ETA 00:02:09 cycle 166778 of 416666
+09:35:38  50% ETA 00:01:45 cycle 212255 of 416666
+09:36:08  64% ETA 00:01:16 cycle 269192 of 416666
+09:36:44  81% ETA 00:00:38 cycle 341630 of 416666
+09:37:23 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.0983499 
+Average order         | 0.0216383 
+Average sign          | 0.014637  
+G_tau measure         | 0.190734  
+Total measure time    | 0.325359  
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.142903
+  Move  Insert Delta_down_0: 0.143295
+  Move  Insert Delta_up_0: 0.14251
+Move set Remove two operators: 0.142897
+  Move  Remove Delta_down_0: 0.143236
+  Move  Remove Delta_up_0: 0.142557
+Move set Insert four operators: 0.0319939
+  Move  Insert Delta_down_0_down_0: 0.0332295
+  Move  Insert Delta_down_0_up_0: 0.0310036
+  Move  Insert Delta_up_0_down_0: 0.0310594
+  Move  Insert Delta_up_0_up_0: 0.0326828
+Move set Remove four operators: 0.0320011
+  Move  Remove Delta_down_0_down_0: 0.0332997
+  Move  Remove Delta_down_0_up_0: 0.0310066
+  Move  Remove Delta_up_0_down_0: 0.031062
+  Move  Remove Delta_up_0_up_0: 0.0326365
+Move  Shift one operator: 0.20009
+[Rank 0] Warmup lasted: 21.2732 seconds [00:00:21]
+[Rank 0] Simulation lasted: 214.476 seconds [00:03:34]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.994401
+Average order: 3.96485
+Auto-correlation time: 0.889529
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.564335 eV
+E_DC using the cHeld method, E_DC = 10.522623 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.564335 eV
+E_DC using the cHeld method, E_DC = 10.522623 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.564335 eV
+E_DC using the cHeld method, E_DC = 10.522623 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.564335 eV
+E_DC using the cHeld method, E_DC = 10.522623 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.564335 eV
+E_DC using the cHeld method, E_DC = 10.522623 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.564335 eV
+E_DC using the cHeld method, E_DC = 10.522623 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.564335 eV
+E_DC using the cHeld method, E_DC = 10.522623 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.564335 eV
+E_DC using the cHeld method, E_DC = 10.522623 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.8879209698750196e-13)
+Warning: Imaginary part in density will be ignored (1.9614933611713385e-13)
+    Chemical Potential = -0.100667  
+    Total Density = 12.367267
+    -0.100667 < Chemical Potential < 0.399333
+    12.367267 < Total Density < 16.115566
+Warning: Imaginary part in density will be ignored (1.8916024831227369e-13)
+    -0.100667 < Chemical Potential < 0.383917
+    12.367267 < Total Density < 16.003477
+Warning: Imaginary part in density will be ignored (1.8958213441898174e-13)
+    -0.100667 < Chemical Potential < 0.383454
+    12.367267 < Total Density < 16.000099
+    Chemical Potential found in 3 iterations : 
+    Total Density = 16.000099;Chemical Potential = 0.383454
+Orbital down_0 density: 0.599328
+Orbital up_0 density: 0.625569
+Total charge of Gloc : 3.833503
+{'chemical_potentials': [0.5283907976530826, 0.5089501177793134, 0.36096375085238114, 0.39933291427108847], 'G_diff': [0.034012741190692336, 0.017691146082581516, 0.01705084254061274, 0.01162167097293186], 'Gimp_diff': [0.0566341978044881, 0.03405372350010703, 0.030261964647708077, 0.03409022313584106], 'density_matrix_values': [3.8339167086156105, 3.808544565806562, 3.854274968701956, 3.8309594938119886], 'orbital_resolved_dms': [{'down_0': array([0.58074921, 0.59892454, 0.58519689]), 'up_0': array([0.60682682, 0.61944007, 0.6103019 ])}, {'down_0': array([0.5802157 , 0.61487562, 0.60544108]), 'up_0': array([0.60516845, 0.62438242, 0.62702673])}, {'down_0': array([0.59130486, 0.62751261, 0.61740636]), 'up_0': array([0.61841388, 0.65163368, 0.64973293])}, {'down_0': array([0.59263356, 0.62480665, 0.6238452 ]), 'up_0': array([0.62311321, 0.65094407, 0.64336548])}], 'n_iterations': 4, 'mu_diff': [-0.019440679873769184, -0.1479863669269323, 0.03836916341870733, -0.015879054254723024], 'density_matrix_diff': [-0.025372142809048537, 0.04573040289539421, -0.023315474889967547, 0.010496837467067532], 'orbital_resolved_dm_diff': [[array([-0.00053351,  0.01595108,  0.02024419]), array([-0.00165837,  0.00494236,  0.01672483])], [array([0.01108916, 0.01263699, 0.01196529]), array([0.01324542, 0.02725126, 0.02270621])], [array([ 0.0013287 , -0.00270596,  0.00643883]), array([ 0.00469934, -0.00068961, -0.00636746])], [array([ 0.00669485,  0.00793785, -0.00444778]), array([0.00245565, 0.00360541, 0.00721333])]]}
+Data from iteration 4 appended to ./extracted_data.csv
+Doing iteration: 5
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+-7.19038*c_dag('down_0',0)*c('down_0',0) + -7.17473*c_dag('down_0',1)*c('down_0',1) + -7.13616*c_dag('down_0',2)*c('down_0',2) + 2.29375e-14*c_dag('up_0',0)*c('up_0',1) + -7.20038*c_dag('up_0',0)*c('up_0',0) + -7.18473*c_dag('up_0',1)*c('up_0',1) + 2.29375e-14*c_dag('up_0',1)*c('up_0',0) + -7.14616*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 28 subspaces.
+
+Warming up ...
+09:37:44   0% ETA 00:00:18 cycle 218 of 41666
+09:37:46   9% ETA 00:00:20 cycle 3846 of 41666
+09:37:49  21% ETA 00:00:16 cycle 9070 of 41666
+09:37:52  36% ETA 00:00:13 cycle 15086 of 41666
+09:37:56  54% ETA 00:00:09 cycle 22747 of 41666
+09:38:01  78% ETA 00:00:04 cycle 32520 of 41666
+09:38:06 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:38:06   0% ETA 00:03:13 cycle 214 of 416666
+09:38:08   1% ETA 00:03:23 cycle 4311 of 416666
+09:38:11   2% ETA 00:03:28 cycle 9113 of 416666
+09:38:14   3% ETA 00:03:23 cycle 15422 of 416666
+09:38:18   5% ETA 00:03:20 cycle 23114 of 416666
+09:38:23   7% ETA 00:03:15 cycle 32781 of 416666
+09:38:29  10% ETA 00:03:09 cycle 44976 of 416666
+09:38:37  14% ETA 00:03:02 cycle 59855 of 416666
+09:38:46  18% ETA 00:02:53 cycle 78661 of 416666
+09:38:58  24% ETA 00:02:40 cycle 102399 of 416666
+09:39:13  31% ETA 00:02:25 cycle 131890 of 416666
+09:39:32  40% ETA 00:02:06 cycle 168774 of 416666
+09:39:56  51% ETA 00:01:43 cycle 214840 of 416666
+09:40:25  65% ETA 00:01:13 cycle 272595 of 416666
+09:41:02  82% ETA 00:00:36 cycle 345552 of 416666
+09:41:38 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.0958423 
+Average order         | 0.0213978 
+Average sign          | 0.0151616 
+G_tau measure         | 0.178591  
+Total measure time    | 0.310992  
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.143034
+  Move  Insert Delta_down_0: 0.143449
+  Move  Insert Delta_up_0: 0.14262
+Move set Remove two operators: 0.143039
+  Move  Remove Delta_down_0: 0.143436
+  Move  Remove Delta_up_0: 0.142641
+Move set Insert four operators: 0.0320583
+  Move  Insert Delta_down_0_down_0: 0.0333423
+  Move  Insert Delta_down_0_up_0: 0.0310767
+  Move  Insert Delta_up_0_down_0: 0.0311049
+  Move  Insert Delta_up_0_up_0: 0.0327093
+Move set Remove four operators: 0.0320559
+  Move  Remove Delta_down_0_down_0: 0.0333234
+  Move  Remove Delta_down_0_up_0: 0.0310871
+  Move  Remove Delta_up_0_down_0: 0.0310957
+  Move  Remove Delta_up_0_up_0: 0.0327171
+Move  Shift one operator: 0.199423
+[Rank 0] Warmup lasted: 21.2723 seconds [00:00:21]
+[Rank 0] Simulation lasted: 212.023 seconds [00:03:32]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.994395
+Average order: 3.96247
+Auto-correlation time: 0.868031
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.612366 eV
+E_DC using the cHeld method, E_DC = 10.680846 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.612366 eV
+E_DC using the cHeld method, E_DC = 10.680846 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.612366 eV
+E_DC using the cHeld method, E_DC = 10.680846 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.612366 eV
+E_DC using the cHeld method, E_DC = 10.680846 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.612366 eV
+E_DC using the cHeld method, E_DC = 10.680846 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.612366 eV
+E_DC using the cHeld method, E_DC = 10.680846 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.612366 eV
+E_DC using the cHeld method, E_DC = 10.680846 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.612366 eV
+E_DC using the cHeld method, E_DC = 10.680846 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.8551256824420243e-13)
+Warning: Imaginary part in density will be ignored (1.9498324947646467e-13)
+    Chemical Potential = -0.116546  
+    Total Density = 12.459248
+    -0.116546 < Chemical Potential < 0.383454
+    12.459248 < Total Density < 16.206562
+Warning: Imaginary part in density will be ignored (1.8692647178708745e-13)
+    -0.116546 < Chemical Potential < 0.355893
+    12.459248 < Total Density < 16.006435
+Warning: Imaginary part in density will be ignored (1.8683749920799565e-13)
+    -0.116546 < Chemical Potential < 0.355035
+    12.459248 < Total Density < 16.000183
+Warning: Imaginary part in density will be ignored (1.8651937324366167e-13)
+    -0.116546 < Chemical Potential < 0.355011
+    12.459248 < Total Density < 16.000005
+    Chemical Potential found in 4 iterations : 
+    Total Density = 16.000005;Chemical Potential = 0.355011
+Orbital down_0 density: 0.598665
+Orbital up_0 density: 0.622093
+Total charge of Gloc : 3.838870
+{'chemical_potentials': [0.5283907976530826, 0.5089501177793134, 0.36096375085238114, 0.39933291427108847, 0.38345386001636544], 'G_diff': [0.034012741190692336, 0.017691146082581516, 0.01705084254061274, 0.01162167097293186, 0.007263907744191045], 'Gimp_diff': [0.0566341978044881, 0.03405372350010703, 0.030261964647708077, 0.03409022313584106, 0.034395778652332266], 'density_matrix_values': [3.8339167086156105, 3.808544565806562, 3.854274968701956, 3.8309594938119886, 3.841456331279056], 'orbital_resolved_dms': [{'down_0': array([0.58074921, 0.59892454, 0.58519689]), 'up_0': array([0.60682682, 0.61944007, 0.6103019 ])}, {'down_0': array([0.5802157 , 0.61487562, 0.60544108]), 'up_0': array([0.60516845, 0.62438242, 0.62702673])}, {'down_0': array([0.59130486, 0.62751261, 0.61740636]), 'up_0': array([0.61841388, 0.65163368, 0.64973293])}, {'down_0': array([0.59263356, 0.62480665, 0.6238452 ]), 'up_0': array([0.62311321, 0.65094407, 0.64336548])}, {'down_0': array([0.59932841, 0.6327445 , 0.61939742]), 'up_0': array([0.62556886, 0.65454948, 0.6505788 ])}], 'n_iterations': 5, 'mu_diff': [-0.019440679873769184, -0.1479863669269323, 0.03836916341870733, -0.015879054254723024, -0.028442802596424177], 'density_matrix_diff': [-0.025372142809048537, 0.04573040289539421, -0.023315474889967547, 0.010496837467067532, -0.008665634041926662], 'orbital_resolved_dm_diff': [[array([-0.00053351,  0.01595108,  0.02024419]), array([-0.00165837,  0.00494236,  0.01672483])], [array([0.01108916, 0.01263699, 0.01196529]), array([0.01324542, 0.02725126, 0.02270621])], [array([ 0.0013287 , -0.00270596,  0.00643883]), array([ 0.00469934, -0.00068961, -0.00636746])], [array([ 0.00669485,  0.00793785, -0.00444778]), array([0.00245565, 0.00360541, 0.00721333])], [array([-0.00066341, -0.00417973,  0.01554979]), array([-0.00347595,  0.00834565,  0.00843922])]]}
+Data from iteration 5 appended to ./extracted_data.csv
+Doing iteration: 6
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+-7.20996*c_dag('down_0',0)*c('down_0',0) + -7.19431*c_dag('down_0',1)*c('down_0',1) + -7.15574*c_dag('down_0',2)*c('down_0',2) + 6.30103e-14*c_dag('up_0',0)*c('up_0',1) + -7.21996*c_dag('up_0',0)*c('up_0',0) + -7.20431*c_dag('up_0',1)*c('up_0',1) + 6.30103e-14*c_dag('up_0',1)*c('up_0',0) + -7.16574*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 28 subspaces.
+
+Warming up ...
+09:42:04   0% ETA 00:00:18 cycle 220 of 41666
+09:42:06   9% ETA 00:00:20 cycle 3921 of 41666
+09:42:09  22% ETA 00:00:16 cycle 9178 of 41666
+09:42:12  36% ETA 00:00:13 cycle 15273 of 41666
+09:42:16  55% ETA 00:00:09 cycle 23067 of 41666
+09:42:21  79% ETA 00:00:04 cycle 32973 of 41666
+09:42:25 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:42:26   0% ETA 00:04:07 cycle 168 of 416666
+09:42:28   1% ETA 00:03:25 cycle 4271 of 416666
+09:42:30   2% ETA 00:03:22 cycle 9370 of 416666
+09:42:34   3% ETA 00:03:20 cycle 15647 of 416666
+09:42:38   5% ETA 00:03:17 cycle 23413 of 416666
+09:42:42   7% ETA 00:03:13 cycle 33198 of 416666
+09:42:49  10% ETA 00:03:06 cycle 45567 of 416666
+09:42:56  14% ETA 00:02:59 cycle 60651 of 416666
+09:43:06  19% ETA 00:02:50 cycle 79802 of 416666
+09:43:18  24% ETA 00:02:37 cycle 103776 of 416666
+09:43:33  32% ETA 00:02:22 cycle 133709 of 416666
+09:43:52  41% ETA 00:02:04 cycle 170995 of 416666
+09:44:16  52% ETA 00:01:40 cycle 217843 of 416666
+09:44:45  66% ETA 00:01:10 cycle 276518 of 416666
+09:45:22  84% ETA 00:00:33 cycle 350347 of 416666
+09:45:55 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.0942454 
+Average order         | 0.0229708 
+Average sign          | 0.0130174 
+G_tau measure         | 0.180477  
+Total measure time    | 0.310711  
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.143297
+  Move  Insert Delta_down_0: 0.143674
+  Move  Insert Delta_up_0: 0.14292
+Move set Remove two operators: 0.143294
+  Move  Remove Delta_down_0: 0.143648
+  Move  Remove Delta_up_0: 0.14294
+Move set Insert four operators: 0.0321193
+  Move  Insert Delta_down_0_down_0: 0.0334028
+  Move  Insert Delta_down_0_up_0: 0.0311593
+  Move  Insert Delta_up_0_down_0: 0.031136
+  Move  Insert Delta_up_0_up_0: 0.0327786
+Move set Remove four operators: 0.0321228
+  Move  Remove Delta_down_0_down_0: 0.0334081
+  Move  Remove Delta_down_0_up_0: 0.031171
+  Move  Remove Delta_up_0_down_0: 0.0311371
+  Move  Remove Delta_up_0_up_0: 0.0327749
+Move  Shift one operator: 0.198604
+[Rank 0] Warmup lasted: 20.9096 seconds [00:00:20]
+[Rank 0] Simulation lasted: 208.991 seconds [00:03:28]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.994456
+Average order: 3.94959
+Auto-correlation time: 0.840414
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.594286 eV
+E_DC using the cHeld method, E_DC = 10.621151 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.594286 eV
+E_DC using the cHeld method, E_DC = 10.621151 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.594286 eV
+E_DC using the cHeld method, E_DC = 10.621151 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.594286 eV
+E_DC using the cHeld method, E_DC = 10.621151 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.594286 eV
+E_DC using the cHeld method, E_DC = 10.621151 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.594286 eV
+E_DC using the cHeld method, E_DC = 10.621151 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.594286 eV
+E_DC using the cHeld method, E_DC = 10.621151 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.594286 eV
+E_DC using the cHeld method, E_DC = 10.621151 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.81918290299113e-13)
+Warning: Imaginary part in density will be ignored (1.716679266282983e-13)
+    Chemical Potential = 0.855011  
+    Total Density = 19.031915
+    0.355011 < Chemical Potential < 0.855011
+    15.716436 < Total Density < 19.031915
+Warning: Imaginary part in density will be ignored (1.8090820474081817e-13)
+    0.355011 < Chemical Potential < 0.397775
+    15.716436 < Total Density < 16.030127
+Warning: Imaginary part in density will be ignored (1.8079619264189291e-13)
+    0.355011 < Chemical Potential < 0.393668
+    15.716436 < Total Density < 16.000178
+Warning: Imaginary part in density will be ignored (1.8053956707597893e-13)
+    0.355011 < Chemical Potential < 0.393643
+    15.716436 < Total Density < 16.000001
+    Chemical Potential found in 4 iterations : 
+    Total Density = 16.000001;Chemical Potential = 0.393643
+Orbital down_0 density: 0.606016
+Orbital up_0 density: 0.622624
+Total charge of Gloc : 3.831155
+{'chemical_potentials': [0.5283907976530826, 0.5089501177793134, 0.36096375085238114, 0.39933291427108847, 0.38345386001636544, 0.35501105741994127], 'G_diff': [0.034012741190692336, 0.017691146082581516, 0.01705084254061274, 0.01162167097293186, 0.007263907744191045, 0.008402179217142152], 'Gimp_diff': [0.0566341978044881, 0.03405372350010703, 0.030261964647708077, 0.03409022313584106, 0.034395778652332266, 0.029804802246430367], 'density_matrix_values': [3.8339167086156105, 3.808544565806562, 3.854274968701956, 3.8309594938119886, 3.841456331279056, 3.8327906972371295], 'orbital_resolved_dms': [{'down_0': array([0.58074921, 0.59892454, 0.58519689]), 'up_0': array([0.60682682, 0.61944007, 0.6103019 ])}, {'down_0': array([0.5802157 , 0.61487562, 0.60544108]), 'up_0': array([0.60516845, 0.62438242, 0.62702673])}, {'down_0': array([0.59130486, 0.62751261, 0.61740636]), 'up_0': array([0.61841388, 0.65163368, 0.64973293])}, {'down_0': array([0.59263356, 0.62480665, 0.6238452 ]), 'up_0': array([0.62311321, 0.65094407, 0.64336548])}, {'down_0': array([0.59932841, 0.6327445 , 0.61939742]), 'up_0': array([0.62556886, 0.65454948, 0.6505788 ])}, {'down_0': array([0.59866499, 0.62856477, 0.63494721]), 'up_0': array([0.6220929 , 0.66289513, 0.65901802])}], 'n_iterations': 6, 'mu_diff': [-0.019440679873769184, -0.1479863669269323, 0.03836916341870733, -0.015879054254723024, -0.028442802596424177, 0.03863234127549975], 'density_matrix_diff': [-0.025372142809048537, 0.04573040289539421, -0.023315474889967547, 0.010496837467067532, -0.008665634041926662, 0.014689185408422123], 'orbital_resolved_dm_diff': [[array([-0.00053351,  0.01595108,  0.02024419]), array([-0.00165837,  0.00494236,  0.01672483])], [array([0.01108916, 0.01263699, 0.01196529]), array([0.01324542, 0.02725126, 0.02270621])], [array([ 0.0013287 , -0.00270596,  0.00643883]), array([ 0.00469934, -0.00068961, -0.00636746])], [array([ 0.00669485,  0.00793785, -0.00444778]), array([0.00245565, 0.00360541, 0.00721333])], [array([-0.00066341, -0.00417973,  0.01554979]), array([-0.00347595,  0.00834565,  0.00843922])], [array([ 0.00735075,  0.00105556, -0.00377645]), array([ 0.00053105, -0.00777722, -0.00642391])]]}
+Data from iteration 6 appended to ./extracted_data.csv
+Doing iteration: 7
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+-7.23052*c_dag('down_0',0)*c('down_0',0) + -7.21487*c_dag('down_0',1)*c('down_0',1) + -7.1763*c_dag('down_0',2)*c('down_0',2) + 2.83178e-14*c_dag('up_0',0)*c('up_0',1) + -7.24052*c_dag('up_0',0)*c('up_0',0) + -7.22487*c_dag('up_0',1)*c('up_0',1) + 2.83178e-14*c_dag('up_0',1)*c('up_0',0) + -7.1863*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 28 subspaces.
+
+Warming up ...
+09:46:24   0% ETA 00:00:12 cycle 326 of 41666
+09:46:26  14% ETA 00:00:12 cycle 6241 of 41666
+09:46:28  33% ETA 00:00:09 cycle 13799 of 41666
+09:46:32  55% ETA 00:00:06 cycle 22973 of 41666
+09:46:36  84% ETA 00:00:02 cycle 35089 of 41666
+09:46:38 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:46:45   0% ETA 00:03:20 cycle 207 of 416666
+09:46:47   0% ETA 00:03:44 cycle 3914 of 416666
+09:46:50   2% ETA 00:03:28 cycle 9083 of 416666
+09:46:53   3% ETA 00:03:26 cycle 15191 of 416666
+09:46:57   5% ETA 00:03:22 cycle 22917 of 416666
+09:47:02   7% ETA 00:03:16 cycle 32610 of 416666
+09:47:08  10% ETA 00:03:09 cycle 44917 of 416666
+09:47:16  14% ETA 00:03:01 cycle 60133 of 416666
+09:47:25  19% ETA 00:02:51 cycle 79173 of 416666
+09:47:37  24% ETA 00:02:40 cycle 102702 of 416666
+09:47:52  31% ETA 00:02:24 cycle 132337 of 416666
+09:48:11  40% ETA 00:02:05 cycle 169492 of 416666
+09:48:35  51% ETA 00:01:41 cycle 216210 of 416666
+09:49:04  65% ETA 00:01:12 cycle 274241 of 416666
+09:49:41  83% ETA 00:00:34 cycle 347917 of 416666
+09:50:15 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.0958945 
+Average order         | 0.0214169 
+Average sign          | 0.0157139 
+G_tau measure         | 0.18044   
+Total measure time    | 0.313465  
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.142944
+  Move  Insert Delta_down_0: 0.143313
+  Move  Insert Delta_up_0: 0.142575
+Move set Remove two operators: 0.142958
+  Move  Remove Delta_down_0: 0.143343
+  Move  Remove Delta_up_0: 0.142573
+Move set Insert four operators: 0.0320564
+  Move  Insert Delta_down_0_down_0: 0.0333806
+  Move  Insert Delta_down_0_up_0: 0.0310351
+  Move  Insert Delta_up_0_down_0: 0.0310247
+  Move  Insert Delta_up_0_up_0: 0.0327853
+Move set Remove four operators: 0.0320485
+  Move  Remove Delta_down_0_down_0: 0.0333549
+  Move  Remove Delta_down_0_up_0: 0.0310193
+  Move  Remove Delta_up_0_down_0: 0.0310182
+  Move  Remove Delta_up_0_up_0: 0.0328018
+Move  Shift one operator: 0.199085
+[Rank 0] Warmup lasted: 14.0264 seconds [00:00:14]
+[Rank 0] Simulation lasted: 210.391 seconds [00:03:30]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.994584
+Average order: 3.97986
+Auto-correlation time: 0.969365
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.613981 eV
+E_DC using the cHeld method, E_DC = 10.686187 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.613981 eV
+E_DC using the cHeld method, E_DC = 10.686187 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.613981 eV
+E_DC using the cHeld method, E_DC = 10.686187 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.613981 eV
+E_DC using the cHeld method, E_DC = 10.686187 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.613981 eV
+E_DC using the cHeld method, E_DC = 10.686187 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.613981 eV
+E_DC using the cHeld method, E_DC = 10.686187 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.613981 eV
+E_DC using the cHeld method, E_DC = 10.686187 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.613981 eV
+E_DC using the cHeld method, E_DC = 10.686187 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.9126543611420017e-13)
+Warning: Imaginary part in density will be ignored (1.997294183176217e-13)
+    Chemical Potential = -0.106357  
+    Total Density = 12.254262
+    -0.106357 < Chemical Potential < 0.393643
+    12.254262 < Total Density < 16.035085
+Warning: Imaginary part in density will be ignored (1.913593704551003e-13)
+    -0.106357 < Chemical Potential < 0.389004
+    12.254262 < Total Density < 16.001108
+Warning: Imaginary part in density will be ignored (1.9154487469359463e-13)
+    -0.106357 < Chemical Potential < 0.388857
+    12.254262 < Total Density < 16.000034
+    Chemical Potential found in 3 iterations : 
+    Total Density = 16.000034;Chemical Potential = 0.388857
+Orbital down_0 density: 0.605230
+Orbital up_0 density: 0.618589
+Total charge of Gloc : 3.831488
+{'chemical_potentials': [0.5283907976530826, 0.5089501177793134, 0.36096375085238114, 0.39933291427108847, 0.38345386001636544, 0.35501105741994127, 0.393643398695441], 'G_diff': [0.034012741190692336, 0.017691146082581516, 0.01705084254061274, 0.01162167097293186, 0.007263907744191045, 0.008402179217142152, 0.0056152244502093995], 'Gimp_diff': [0.0566341978044881, 0.03405372350010703, 0.030261964647708077, 0.03409022313584106, 0.034395778652332266, 0.029804802246430367, 0.030140460189489446], 'density_matrix_values': [3.8339167086156105, 3.808544565806562, 3.854274968701956, 3.8309594938119886, 3.841456331279056, 3.8327906972371295, 3.8474798826455516], 'orbital_resolved_dms': [{'down_0': array([0.58074921, 0.59892454, 0.58519689]), 'up_0': array([0.60682682, 0.61944007, 0.6103019 ])}, {'down_0': array([0.5802157 , 0.61487562, 0.60544108]), 'up_0': array([0.60516845, 0.62438242, 0.62702673])}, {'down_0': array([0.59130486, 0.62751261, 0.61740636]), 'up_0': array([0.61841388, 0.65163368, 0.64973293])}, {'down_0': array([0.59263356, 0.62480665, 0.6238452 ]), 'up_0': array([0.62311321, 0.65094407, 0.64336548])}, {'down_0': array([0.59932841, 0.6327445 , 0.61939742]), 'up_0': array([0.62556886, 0.65454948, 0.6505788 ])}, {'down_0': array([0.59866499, 0.62856477, 0.63494721]), 'up_0': array([0.6220929 , 0.66289513, 0.65901802])}, {'down_0': array([0.60601575, 0.62962033, 0.63117076]), 'up_0': array([0.62262395, 0.65511791, 0.65259411])}], 'n_iterations': 7, 'mu_diff': [-0.019440679873769184, -0.1479863669269323, 0.03836916341870733, -0.015879054254723024, -0.028442802596424177, 0.03863234127549975, -0.0047863237082304], 'density_matrix_diff': [-0.025372142809048537, 0.04573040289539421, -0.023315474889967547, 0.010496837467067532, -0.008665634041926662, 0.014689185408422123, 0.0009899667403794332], 'orbital_resolved_dm_diff': [[array([-0.00053351,  0.01595108,  0.02024419]), array([-0.00165837,  0.00494236,  0.01672483])], [array([0.01108916, 0.01263699, 0.01196529]), array([0.01324542, 0.02725126, 0.02270621])], [array([ 0.0013287 , -0.00270596,  0.00643883]), array([ 0.00469934, -0.00068961, -0.00636746])], [array([ 0.00669485,  0.00793785, -0.00444778]), array([0.00245565, 0.00360541, 0.00721333])], [array([-0.00066341, -0.00417973,  0.01554979]), array([-0.00347595,  0.00834565,  0.00843922])], [array([ 0.00735075,  0.00105556, -0.00377645]), array([ 0.00053105, -0.00777722, -0.00642391])], [array([-0.00078562,  0.01202469, -0.00135912]), array([-0.00403491,  0.00667806, -0.00267525])]]}
+Data from iteration 7 appended to ./extracted_data.csv
+Doing iteration: 8
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+-7.24543*c_dag('down_0',0)*c('down_0',0) + -7.22978*c_dag('down_0',1)*c('down_0',1) + -7.19121*c_dag('down_0',2)*c('down_0',2) + 2.27998e-14*c_dag('up_0',0)*c('up_0',1) + -7.25543*c_dag('up_0',0)*c('up_0',0) + -7.23978*c_dag('up_0',1)*c('up_0',1) + 2.27998e-14*c_dag('up_0',1)*c('up_0',0) + -7.20121*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 28 subspaces.
+
+Warming up ...
+09:50:39   0% ETA 00:00:18 cycle 226 of 41666
+09:50:41  10% ETA 00:00:17 cycle 4452 of 41666
+09:50:43  22% ETA 00:00:16 cycle 9338 of 41666
+09:50:47  37% ETA 00:00:12 cycle 15713 of 41666
+09:50:51  56% ETA 00:00:09 cycle 23529 of 41666
+09:50:55  80% ETA 00:00:04 cycle 33460 of 41666
+09:51:00 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:51:00   0% ETA 00:03:17 cycle 211 of 416666
+09:51:02   1% ETA 00:03:18 cycle 4421 of 416666
+09:51:05   2% ETA 00:03:24 cycle 9293 of 416666
+09:51:08   3% ETA 00:03:18 cycle 15773 of 416666
+09:51:12   5% ETA 00:03:15 cycle 23667 of 416666
+09:51:17   8% ETA 00:03:11 cycle 33490 of 416666
+09:51:23  10% ETA 00:03:05 cycle 45761 of 416666
+09:51:31  14% ETA 00:02:58 cycle 61053 of 416666
+09:51:40  19% ETA 00:02:49 cycle 80166 of 416666
+09:51:52  25% ETA 00:02:36 cycle 104407 of 416666
+09:52:07  32% ETA 00:02:21 cycle 134326 of 416666
+09:52:26  41% ETA 00:02:03 cycle 171733 of 416666
+09:52:50  52% ETA 00:01:39 cycle 218559 of 416666
+09:53:19  66% ETA 00:01:10 cycle 277045 of 416666
+09:53:56  84% ETA 00:00:32 cycle 351560 of 416666
+09:54:28 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.0938336 
+Average order         | 0.0201974 
+Average sign          | 0.014909  
+G_tau measure         | 0.187453  
+Total measure time    | 0.316392  
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.142955
+  Move  Insert Delta_down_0: 0.143328
+  Move  Insert Delta_up_0: 0.142582
+Move set Remove two operators: 0.142956
+  Move  Remove Delta_down_0: 0.143316
+  Move  Remove Delta_up_0: 0.142596
+Move set Insert four operators: 0.032088
+  Move  Insert Delta_down_0_down_0: 0.0334333
+  Move  Insert Delta_down_0_up_0: 0.0310444
+  Move  Insert Delta_up_0_down_0: 0.0310461
+  Move  Insert Delta_up_0_up_0: 0.0328286
+Move set Remove four operators: 0.0320841
+  Move  Remove Delta_down_0_down_0: 0.0334226
+  Move  Remove Delta_down_0_up_0: 0.0310159
+  Move  Remove Delta_up_0_down_0: 0.0310552
+  Move  Remove Delta_up_0_up_0: 0.0328429
+Move  Shift one operator: 0.198893
+[Rank 0] Warmup lasted: 20.7897 seconds [00:00:20]
+[Rank 0] Simulation lasted: 208.481 seconds [00:03:28]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.994493
+Average order: 3.98237
+Auto-correlation time: 0.912873
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.654350 eV
+E_DC using the cHeld method, E_DC = 10.820093 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.654350 eV
+E_DC using the cHeld method, E_DC = 10.820093 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.654350 eV
+E_DC using the cHeld method, E_DC = 10.820093 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.654350 eV
+E_DC using the cHeld method, E_DC = 10.820093 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.654350 eV
+E_DC using the cHeld method, E_DC = 10.820093 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.654350 eV
+E_DC using the cHeld method, E_DC = 10.820093 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.654350 eV
+E_DC using the cHeld method, E_DC = 10.820093 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.654350 eV
+E_DC using the cHeld method, E_DC = 10.820093 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.70928576374057e-13)
+Warning: Imaginary part in density will be ignored (1.7696133856266597e-13)
+    Chemical Potential = -0.111143  
+    Total Density = 12.473653
+    -0.111143 < Chemical Potential < 0.388857
+    12.473653 < Total Density < 16.247633
+Warning: Imaginary part in density will be ignored (1.7072335267595914e-13)
+    -0.111143 < Chemical Potential < 0.356049
+    12.473653 < Total Density < 16.008346
+Warning: Imaginary part in density will be ignored (1.7067327884964795e-13)
+    -0.111143 < Chemical Potential < 0.354946
+    12.473653 < Total Density < 16.000255
+Warning: Imaginary part in density will be ignored (1.7092409713901426e-13)
+    -0.111143 < Chemical Potential < 0.354912
+    12.473653 < Total Density < 16.000008
+    Chemical Potential found in 4 iterations : 
+    Total Density = 16.000008;Chemical Potential = 0.354912
+Orbital down_0 density: 0.607979
+Orbital up_0 density: 0.632071
+Total charge of Gloc : 3.838050
+{'chemical_potentials': [0.5283907976530826, 0.5089501177793134, 0.36096375085238114, 0.39933291427108847, 0.38345386001636544, 0.35501105741994127, 0.393643398695441, 0.3888570749872106], 'G_diff': [0.034012741190692336, 0.017691146082581516, 0.01705084254061274, 0.01162167097293186, 0.007263907744191045, 0.008402179217142152, 0.0056152244502093995, 0.002329040617268698], 'Gimp_diff': [0.0566341978044881, 0.03405372350010703, 0.030261964647708077, 0.03409022313584106, 0.034395778652332266, 0.029804802246430367, 0.030140460189489446, 0.02804710456579493], 'density_matrix_values': [3.8339167086156105, 3.808544565806562, 3.854274968701956, 3.8309594938119886, 3.841456331279056, 3.8327906972371295, 3.8474798826455516, 3.848469849385931], 'orbital_resolved_dms': [{'down_0': array([0.58074921, 0.59892454, 0.58519689]), 'up_0': array([0.60682682, 0.61944007, 0.6103019 ])}, {'down_0': array([0.5802157 , 0.61487562, 0.60544108]), 'up_0': array([0.60516845, 0.62438242, 0.62702673])}, {'down_0': array([0.59130486, 0.62751261, 0.61740636]), 'up_0': array([0.61841388, 0.65163368, 0.64973293])}, {'down_0': array([0.59263356, 0.62480665, 0.6238452 ]), 'up_0': array([0.62311321, 0.65094407, 0.64336548])}, {'down_0': array([0.59932841, 0.6327445 , 0.61939742]), 'up_0': array([0.62556886, 0.65454948, 0.6505788 ])}, {'down_0': array([0.59866499, 0.62856477, 0.63494721]), 'up_0': array([0.6220929 , 0.66289513, 0.65901802])}, {'down_0': array([0.60601575, 0.62962033, 0.63117076]), 'up_0': array([0.62262395, 0.65511791, 0.65259411])}, {'down_0': array([0.60523013, 0.64164502, 0.62981164]), 'up_0': array([0.61858904, 0.66179596, 0.64991886])}], 'n_iterations': 8, 'mu_diff': [-0.019440679873769184, -0.1479863669269323, 0.03836916341870733, -0.015879054254723024, -0.028442802596424177, 0.03863234127549975, -0.0047863237082304, -0.033944796754789675], 'density_matrix_diff': [-0.025372142809048537, 0.04573040289539421, -0.023315474889967547, 0.010496837467067532, -0.008665634041926662, 0.014689185408422123, 0.0009899667403794332, -0.013505781173788645], 'orbital_resolved_dm_diff': [[array([-0.00053351,  0.01595108,  0.02024419]), array([-0.00165837,  0.00494236,  0.01672483])], [array([0.01108916, 0.01263699, 0.01196529]), array([0.01324542, 0.02725126, 0.02270621])], [array([ 0.0013287 , -0.00270596,  0.00643883]), array([ 0.00469934, -0.00068961, -0.00636746])], [array([ 0.00669485,  0.00793785, -0.00444778]), array([0.00245565, 0.00360541, 0.00721333])], [array([-0.00066341, -0.00417973,  0.01554979]), array([-0.00347595,  0.00834565,  0.00843922])], [array([ 0.00735075,  0.00105556, -0.00377645]), array([ 0.00053105, -0.00777722, -0.00642391])], [array([-0.00078562,  0.01202469, -0.00135912]), array([-0.00403491,  0.00667806, -0.00267525])], [array([ 0.00274891, -0.00242314,  0.0028991 ]), array([ 1.34822822e-02, -8.03933673e-05,  3.55758642e-03])]]}
+Data from iteration 8 appended to ./extracted_data.csv
+Doing iteration: 9
+
+╔╦╗╦═╗╦╔═╗ ╔═╗  ┌─┐┌┬┐┬ ┬┬ ┬┌┐ 
+ ║ ╠╦╝║║═╬╗╚═╗  │   │ ├─┤└┬┘├┴┐
+ ╩ ╩╚═╩╚═╝╚╚═╝  └─┘ ┴ ┴ ┴ ┴ └─┘
+
+The local Hamiltonian of the problem:
+-4.08342e-14*c_dag('down_0',0)*c('down_0',1) + -7.25185*c_dag('down_0',0)*c('down_0',0) + -7.2362*c_dag('down_0',1)*c('down_0',1) + -4.08342e-14*c_dag('down_0',1)*c('down_0',0) + -7.19763*c_dag('down_0',2)*c('down_0',2) + -7.26185*c_dag('up_0',0)*c('up_0',0) + -7.2462*c_dag('up_0',1)*c('up_0',1) + -7.20763*c_dag('up_0',2)*c('up_0',2) + 1.5*c_dag('down_0',0)*c_dag('down_0',1)*c('down_0',1)*c('down_0',0) + 1.5*c_dag('down_0',0)*c_dag('down_0',2)*c('down_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',1)*c('down_0',1) + 3*c_dag('down_0',0)*c_dag('up_0',0)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',1)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',1)*c('up_0',0)*c('down_0',1) + 2*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',2)*c('down_0',0) + 0.5*c_dag('down_0',0)*c_dag('up_0',2)*c('up_0',0)*c('down_0',2) + 1.5*c_dag('down_0',1)*c_dag('down_0',2)*c('down_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',1)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',0)*c('up_0',0)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',2)*c('down_0',2) + 3*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',1)*c('up_0',0)*c('down_0',0) + 2*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',2)*c('down_0',1) + 0.5*c_dag('down_0',1)*c_dag('up_0',2)*c('up_0',1)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',2)*c('down_0',0) + 2*c_dag('down_0',2)*c_dag('up_0',0)*c('up_0',0)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',2)*c('down_0',1) + 2*c_dag('down_0',2)*c_dag('up_0',1)*c('up_0',1)*c('down_0',2) + 3*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',2)*c('down_0',2) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',1)*c('down_0',1) + 0.5*c_dag('down_0',2)*c_dag('up_0',2)*c('up_0',0)*c('down_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',1)*c('up_0',1)*c('up_0',0) + 1.5*c_dag('up_0',0)*c_dag('up_0',2)*c('up_0',2)*c('up_0',0) + 1.5*c_dag('up_0',1)*c_dag('up_0',2)*c('up_0',2)*c('up_0',1)
+Using autopartition algorithm to partition the local Hilbert space
+Found 28 subspaces.
+
+Warming up ...
+09:54:58   0% ETA 00:00:24 cycle 172 of 41666
+09:55:00   9% ETA 00:00:19 cycle 4058 of 41666
+09:55:03  22% ETA 00:00:16 cycle 9262 of 41666
+09:55:06  36% ETA 00:00:13 cycle 15362 of 41666
+09:55:10  55% ETA 00:00:09 cycle 23106 of 41666
+09:55:15  79% ETA 00:00:04 cycle 33014 of 41666
+09:55:19 100% ETA 00:00:00 cycle 41665 of 41666
+
+
+
+Accumulating ...
+09:55:20   0% ETA 00:03:15 cycle 212 of 416666
+09:55:22   1% ETA 00:03:19 cycle 4392 of 416666
+09:55:24   2% ETA 00:03:25 cycle 9216 of 416666
+09:55:27   3% ETA 00:03:18 cycle 15788 of 416666
+09:55:31   5% ETA 00:03:16 cycle 23538 of 416666
+09:55:36   7% ETA 00:03:12 cycle 33300 of 416666
+09:55:42  10% ETA 00:03:06 cycle 45642 of 416666
+09:55:50  14% ETA 00:02:59 cycle 60793 of 416666
+09:56:00  19% ETA 00:02:49 cycle 79856 of 416666
+09:56:12  24% ETA 00:02:37 cycle 103905 of 416666
+09:56:27  32% ETA 00:02:22 cycle 133815 of 416666
+09:56:46  41% ETA 00:02:03 cycle 171041 of 416666
+09:57:09  52% ETA 00:01:40 cycle 217869 of 416666
+09:57:39  66% ETA 00:01:10 cycle 276411 of 416666
+09:58:16  85% ETA 00:00:29 cycle 357224 of 416666
+09:58:35 100% ETA 00:00:00 cycle 416665 of 416666
+
+
+[Rank 0] Collect results: Waiting for all mpi-threads to finish accumulating...
+[Rank 0] Timings for all measures:
+Measure               | seconds   
+Auto-correlation time | 0.0855837 
+Average order         | 0.0181212 
+Average sign          | 0.0127667 
+G_tau measure         | 0.172069  
+Total measure time    | 0.288541  
+[Rank 0] Acceptance rate for all moves:
+Move set Insert two operators: 0.143327
+  Move  Insert Delta_down_0: 0.143737
+  Move  Insert Delta_up_0: 0.142916
+Move set Remove two operators: 0.143316
+  Move  Remove Delta_down_0: 0.143733
+  Move  Remove Delta_up_0: 0.1429
+Move set Insert four operators: 0.032161
+  Move  Insert Delta_down_0_down_0: 0.0335289
+  Move  Insert Delta_down_0_up_0: 0.0311196
+  Move  Insert Delta_up_0_down_0: 0.0311165
+  Move  Insert Delta_up_0_up_0: 0.0328789
+Move set Remove four operators: 0.0321584
+  Move  Remove Delta_down_0_down_0: 0.0334944
+  Move  Remove Delta_down_0_up_0: 0.0311337
+  Move  Remove Delta_up_0_down_0: 0.0311224
+  Move  Remove Delta_up_0_up_0: 0.0328839
+Move  Shift one operator: 0.19816
+[Rank 0] Warmup lasted: 21.03 seconds [00:00:21]
+[Rank 0] Simulation lasted: 195.766 seconds [00:03:15]
+[Rank 0] Number of measures: 416666
+Total number of measures: 9999984
+Average sign: 0.994517
+Average order: 3.96127
+Auto-correlation time: 0.912437
+Detected use_dc_formula=1, changing to cHeld
+DC potential computed using the cHeld method, V_DC = 6.702845 eV
+E_DC using the cHeld method, E_DC = 10.982031 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.702845 eV
+E_DC using the cHeld method, E_DC = 10.982031 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.702845 eV
+E_DC using the cHeld method, E_DC = 10.982031 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.702845 eV
+E_DC using the cHeld method, E_DC = 10.982031 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.702845 eV
+E_DC using the cHeld method, E_DC = 10.982031 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.702845 eV
+E_DC using the cHeld method, E_DC = 10.982031 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.702845 eV
+E_DC using the cHeld method, E_DC = 10.982031 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+DC potential computed using the cHeld method, V_DC = 6.702845 eV
+E_DC using the cHeld method, E_DC = 10.982031 eV
+Held method for 3 orbitals, computed U_mean=2.000000 eV
+
+sumk calc_mu: Using dichtomy adjustment to find chemical potential
+
+Dichotomy adjustment of Chemical Potential to obtain Total Density = 16.000000 +/- 0.000100
+Warning: Imaginary part in density will be ignored (1.9009777558431505e-13)
+Warning: Imaginary part in density will be ignored (1.9842230423941688e-13)
+    Chemical Potential = -0.145088  
+    Total Density = 12.614490
+    -0.145088 < Chemical Potential < 0.354912
+    12.614490 < Total Density < 16.369483
+Warning: Imaginary part in density will be ignored (1.9058938459339123e-13)
+    -0.145088 < Chemical Potential < 0.305713
+    12.614490 < Total Density < 16.012054
+Warning: Imaginary part in density will be ignored (1.9049285346882066e-13)
+    -0.145088 < Chemical Potential < 0.304114
+    12.614490 < Total Density < 16.000338
+Warning: Imaginary part in density will be ignored (1.9105256943487242e-13)
+    -0.145088 < Chemical Potential < 0.304069
+    12.614490 < Total Density < 16.000009
+    Chemical Potential found in 4 iterations : 
+    Total Density = 16.000009;Chemical Potential = 0.304069
+Orbital down_0 density: 0.618063
+Orbital up_0 density: 0.627476
+Total charge of Gloc : 3.847759
+{'chemical_potentials': [0.5283907976530826, 0.5089501177793134, 0.36096375085238114, 0.39933291427108847, 0.38345386001636544, 0.35501105741994127, 0.393643398695441, 0.3888570749872106, 0.35491227823242094], 'G_diff': [0.034012741190692336, 0.017691146082581516, 0.01705084254061274, 0.01162167097293186, 0.007263907744191045, 0.008402179217142152, 0.0056152244502093995, 0.002329040617268698, 0.0020350708631255137], 'Gimp_diff': [0.0566341978044881, 0.03405372350010703, 0.030261964647708077, 0.03409022313584106, 0.034395778652332266, 0.029804802246430367, 0.030140460189489446, 0.02804710456579493, 0.026293157862342192], 'density_matrix_values': [3.8339167086156105, 3.808544565806562, 3.854274968701956, 3.8309594938119886, 3.841456331279056, 3.8327906972371295, 3.8474798826455516, 3.848469849385931, 3.8349640682121424], 'orbital_resolved_dms': [{'down_0': array([0.58074921, 0.59892454, 0.58519689]), 'up_0': array([0.60682682, 0.61944007, 0.6103019 ])}, {'down_0': array([0.5802157 , 0.61487562, 0.60544108]), 'up_0': array([0.60516845, 0.62438242, 0.62702673])}, {'down_0': array([0.59130486, 0.62751261, 0.61740636]), 'up_0': array([0.61841388, 0.65163368, 0.64973293])}, {'down_0': array([0.59263356, 0.62480665, 0.6238452 ]), 'up_0': array([0.62311321, 0.65094407, 0.64336548])}, {'down_0': array([0.59932841, 0.6327445 , 0.61939742]), 'up_0': array([0.62556886, 0.65454948, 0.6505788 ])}, {'down_0': array([0.59866499, 0.62856477, 0.63494721]), 'up_0': array([0.6220929 , 0.66289513, 0.65901802])}, {'down_0': array([0.60601575, 0.62962033, 0.63117076]), 'up_0': array([0.62262395, 0.65511791, 0.65259411])}, {'down_0': array([0.60523013, 0.64164502, 0.62981164]), 'up_0': array([0.61858904, 0.66179596, 0.64991886])}, {'down_0': array([0.60797903, 0.63922188, 0.63271074]), 'up_0': array([0.63207132, 0.66171557, 0.65347645])}], 'n_iterations': 9, 'mu_diff': [-0.019440679873769184, -0.1479863669269323, 0.03836916341870733, -0.015879054254723024, -0.028442802596424177, 0.03863234127549975, -0.0047863237082304, -0.033944796754789675, -0.05084304399530848], 'density_matrix_diff': [-0.025372142809048537, 0.04573040289539421, -0.023315474889967547, 0.010496837467067532, -0.008665634041926662, 0.014689185408422123, 0.0009899667403794332, -0.013505781173788645, 0.024486780935486063], 'orbital_resolved_dm_diff': [[array([-0.00053351,  0.01595108,  0.02024419]), array([-0.00165837,  0.00494236,  0.01672483])], [array([0.01108916, 0.01263699, 0.01196529]), array([0.01324542, 0.02725126, 0.02270621])], [array([ 0.0013287 , -0.00270596,  0.00643883]), array([ 0.00469934, -0.00068961, -0.00636746])], [array([ 0.00669485,  0.00793785, -0.00444778]), array([0.00245565, 0.00360541, 0.00721333])], [array([-0.00066341, -0.00417973,  0.01554979]), array([-0.00347595,  0.00834565,  0.00843922])], [array([ 0.00735075,  0.00105556, -0.00377645]), array([ 0.00053105, -0.00777722, -0.00642391])], [array([-0.00078562,  0.01202469, -0.00135912]), array([-0.00403491,  0.00667806, -0.00267525])], [array([ 0.00274891, -0.00242314,  0.0028991 ]), array([ 1.34822822e-02, -8.03933673e-05,  3.55758642e-03])], [array([ 0.0100844 ,  0.00523456, -0.00047136]), array([-0.00459507,  0.00502218,  0.00897256])]]}
+Data from iteration 9 appended to ./extracted_data.csv
