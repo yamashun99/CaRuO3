@@ -19,10 +19,10 @@ from extract_data import extract_data_from_h5
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-h_field = 0.0
-beta = 40
+h_field = 0.005
+beta = 20
 U = 3.0
-J = 0.25
+J = 0.5
 directory = "."
 filename = f"{directory}/nsp"
 n_iw = 1025
@@ -123,8 +123,8 @@ DC_type = 1
 # DC_value = 59.0
 
 # Prepare hdf file and and check for previous iterations
-n_iterations = 10
-n_iterations_min = 5
+n_iterations = 5
+n_iterations_min = 2
 
 occ_conv_crit = 1e-2
 g0_conv_crit = 1e-2

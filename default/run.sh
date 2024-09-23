@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # 配列の定義
-x_values=(5 7 10 20)
-y_values=(0.02 0.01 0.005)
-z_values=(0.25 0.5)
+x_values=(20)
+y_values=(0.005)
+z_values=(0.5)
 
 # ループ処理
 for z in "${z_values[@]}"; do
